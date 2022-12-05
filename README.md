@@ -25,11 +25,31 @@
 
 ### Descrição do projeto:
 
+#### Vem.de pix
+A Vem.de Pix é uma plataforma de vendas digital sem taxa via PIX, direcionada a entidades universitárias e vendedores independentes.
+
 
 #### Prints das telas com descrição das funcionalidades. 
 
 
 #### Tecnologias, ferramentas, dependências, versões. etc. 
+
+
+Front-End desenvolvido em: Angular Material 14.2.0;
+                           Typescript 4.7.2
+
+
+Back-End desenvolvido em: Java 8;
+                          Spring Boot 2.7.3;
+                          PostgreSQL 42.5.0;
+                          Google Cloud Plataform.
+    
+    
+Mobile desenvolvido em: Swift 5.5 (mínimo iOS 15);
+                        Ruby 3.1.2
+
+
+Gerador código PIX desenvolvido em JavaScript.
 
 
 #### Ambientes
