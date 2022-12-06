@@ -53,7 +53,11 @@ Gerador código PIX desenvolvido em JavaScript.
 
 
 #### Ambientes
-
-
 #### Como colocar no ar, como testar, etc
-#### Como acessar, quem pode se cadastrar(regras de acessos), etc.
+
+Para testar a aplicação é preciso rodar o banco localmente, para isso, copie o arquivo '.env.example' e renomei-o pra '.env'. Em seguida, vá no arquivo 'application.yml' e colocar no campo url a url do banco com as credenciais q estao no arquivo '.env' (o padrão da url é jdbc:postgresql://localhost:5432/POSTGRES_DB?user=POSTGRES_USER$password=POSTGRES_PASSWORD). 
+Por fim, é só rodar './mvnw -DskipTests spring-boot:run' que a aplicação estará rodando na localhost:8080.
+
+Para testar o front da aplicação é necessário ter instalado node.js e seguir as instruções do README do repositório frontend.
+
+Para testar a aplicação em iOS é necessário ter Xcode, pelo menos, na versão 14.0 e seguir as instruções do README do repositório mobile.
